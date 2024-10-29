@@ -11,7 +11,7 @@ if (someMessage == "Oranges") {
 console.log(someMessage); 
 let someNumber = "10";
 
-if (someNumber ==10) {
+if (someNumber ===10) {
     console.log("We have 10!!")
 }
 
@@ -45,6 +45,7 @@ switch (someMessage) {
         break;
     default:
         console.log("We have another fruit")
+        break;
 }
 
 //short circuit logic
