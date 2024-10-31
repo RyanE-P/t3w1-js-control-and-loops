@@ -49,5 +49,5 @@ if (someMessage === "Bananas") {
     //                  Bananas        Ba          BA
     someCoolMessage = someMessage.substring(0, 2).toLocaleUpperCase();
 } else {
-    someCoolMessage = "Default mesage here.";
+    someCoolMessage = "Default message here.";
 }
